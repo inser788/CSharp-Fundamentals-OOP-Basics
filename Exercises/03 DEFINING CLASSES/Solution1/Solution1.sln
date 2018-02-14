@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 Bank Account", "01 Bank Account\01 Bank Account.csproj", "{64DF4D2C-8F04-47DB-A9D8-4B89B310630D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01 Bank Account", "01 Bank Account\01 Bank Account.csproj", "{64DF4D2C-8F04-47DB-A9D8-4B89B310630D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 Bank Account Methods", "02 Bank Account Methods\02 Bank Account Methods.csproj", "{7F8313FF-5EFC-4CF5-AA96-01C4867A5D43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02 Bank Account Methods", "02 Bank Account Methods\02 Bank Account Methods.csproj", "{7F8313FF-5EFC-4CF5-AA96-01C4867A5D43}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Test_Client", "03 Test Client\03_Test_Client.csproj", "{CCCCED12-DCAD-4A27-8BF0-9DAF815EB807}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_Test_Client", "03 Test Client\03_Test_Client.csproj", "{CCCCED12-DCAD-4A27-8BF0-9DAF815EB807}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Person_Class", "04_Person_Class\04_Person_Class.csproj", "{8A96A17E-382D-4762-951C-BAED58F1DF22}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{CCCCED12-DCAD-4A27-8BF0-9DAF815EB807}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCCCED12-DCAD-4A27-8BF0-9DAF815EB807}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCCCED12-DCAD-4A27-8BF0-9DAF815EB807}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A96A17E-382D-4762-951C-BAED58F1DF22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A96A17E-382D-4762-951C-BAED58F1DF22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A96A17E-382D-4762-951C-BAED58F1DF22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A96A17E-382D-4762-951C-BAED58F1DF22}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
