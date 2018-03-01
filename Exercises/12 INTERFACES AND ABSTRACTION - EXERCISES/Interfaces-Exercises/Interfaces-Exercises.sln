@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Define_an_Interface_IPerson", "01_Define_an_Interface_IPerson\01_Define_an_Interface_IPerson.csproj", "{FCD35C5C-4A20-4B7B-A31A-ED25444BD915}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_Define_an_Interface_IPerson", "01_Define_an_Interface_IPerson\01_Define_an_Interface_IPerson.csproj", "{FCD35C5C-4A20-4B7B-A31A-ED25444BD915}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Multiple_Implementation", "02_Multiple_Implementation\02_Multiple_Implementation.csproj", "{D1322478-9744-47B5-B450-FDB8F3BEC72F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Ferrari", "03_Ferrari\03_Ferrari.csproj", "{6F5549B5-12A8-4A42-95DD-898C5D3CF621}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Telephony", "04_Telephony\04_Telephony.csproj", "{B50060AD-0D8A-4736-B9D7-97EF3B726702}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{FCD35C5C-4A20-4B7B-A31A-ED25444BD915}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCD35C5C-4A20-4B7B-A31A-ED25444BD915}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCD35C5C-4A20-4B7B-A31A-ED25444BD915}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1322478-9744-47B5-B450-FDB8F3BEC72F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1322478-9744-47B5-B450-FDB8F3BEC72F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1322478-9744-47B5-B450-FDB8F3BEC72F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1322478-9744-47B5-B450-FDB8F3BEC72F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F5549B5-12A8-4A42-95DD-898C5D3CF621}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F5549B5-12A8-4A42-95DD-898C5D3CF621}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F5549B5-12A8-4A42-95DD-898C5D3CF621}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F5549B5-12A8-4A42-95DD-898C5D3CF621}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B50060AD-0D8A-4736-B9D7-97EF3B726702}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B50060AD-0D8A-4736-B9D7-97EF3B726702}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B50060AD-0D8A-4736-B9D7-97EF3B726702}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B50060AD-0D8A-4736-B9D7-97EF3B726702}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
