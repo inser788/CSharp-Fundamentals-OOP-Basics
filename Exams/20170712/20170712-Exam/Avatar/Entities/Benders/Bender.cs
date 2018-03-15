@@ -16,9 +16,9 @@
     {
         var name = this.GetType().Name;
         var index = name.IndexOf("Bender");
-        name.Insert(index, " ");
+        name=name.Insert(index, " ");
 
-        return $"###{name}: {this.Name}, Powe: {this.Power}, ";
+        return $"###{name}: {this.Name}, Power: {this.Power},";
     }
 }
 

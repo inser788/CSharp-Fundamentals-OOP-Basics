@@ -11,5 +11,10 @@
     {
         return this.AirAffinity;
     }
+
+    public override string ToString()
+    {
+        return $"{base.ToString()} Air Affinity: {this.AirAffinity}";
+    }
 }
 

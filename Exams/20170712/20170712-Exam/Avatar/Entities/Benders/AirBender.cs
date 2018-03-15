@@ -15,7 +15,7 @@
 
     public override string ToString()
     {
-        return $"{base.ToString()} Water Clarity: {this.AerialIntegrity:f2}";
+        return $"{base.ToString()} Aerial Integrity: {this.AerialIntegrity:f2}";
     }
 }
 

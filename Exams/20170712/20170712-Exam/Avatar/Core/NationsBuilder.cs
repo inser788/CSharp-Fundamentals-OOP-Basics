@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Runtime.InteropServices;
+using System.Linq;
+using System.Text;
 
 public class NationsBuilder
 {
 
     private Dictionary<string, Nation> nations;
+    private List<string> wars;
 
     public NationsBuilder()
     {
@@ -17,6 +19,7 @@ public class NationsBuilder
             {"Water", new Nation()},
 
         };
+        this.wars=new List<string>();
     }
 
     public void AssignBender(List<string> benderArgs)
@@ -70,34 +73,31 @@ public class NationsBuilder
 
     public string GetStatus(string nationsType)
     {
-        switch (nationsType)
-        {
-            case "Air":
-                
-                break;
-
-            case "Earth":
-                break;
-
-            case "Fire":
-                break;
-            case "Water":
-                break;
-
-        }
-
-        return "";
+        return $"{nationsType} Nation"+Environment.NewLine+this.nations[nationsType].ToString();
     }
 
     public void IssueWar(string nationsType)
     {
-        //TODO: Add some logic here … 
+        this.wars.Add(nationsType);
+        var winner = nations.Max(n => n.Value.GetAllPower());
+        foreach (var nation in nations)
+        {
+            if (nation.Value.GetAllPower() != winner)
+            {
+                nation.Value.Kill();
+            }
+        }
     }
 
     public string GetWarsRecord()
     {
-        //TODO: Add some logic here … 
-        return "";
+       StringBuilder sb=new StringBuilder();
+        for (int i = 0; i < this.wars.Count; i++)
+        {
+            sb.AppendLine($"War {i + 1} issued by {wars[i]}");
+        }
+
+        return sb.ToString().Trim();
     }
 
 }

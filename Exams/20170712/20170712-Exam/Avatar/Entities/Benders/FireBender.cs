@@ -16,7 +16,7 @@
 
     public override string ToString()
     {
-        return $"{base.ToString()} Water Clarity: {this.HeatAggression:f2}";
+        return $"{base.ToString()} Heat Aggression: {this.HeatAggression:f2}";
     }
 }
 

@@ -12,5 +12,10 @@
     {
         return this.WaterAffinity;
     }
+
+    public override string ToString()
+    {
+        return $"{base.ToString()} Water Affinity: {this.WaterAffinity}";
+    }
 }
 

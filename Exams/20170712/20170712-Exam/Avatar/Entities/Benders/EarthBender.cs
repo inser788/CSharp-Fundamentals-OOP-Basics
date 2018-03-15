@@ -16,7 +16,7 @@
 
     public override string ToString()
     {
-        return $"{base.ToString()} Water Clarity: {this.GroundSaturation:f2}";
+        return $"{base.ToString()} Ground Saturation: {this.GroundSaturation:f2}";
     }
 }
 

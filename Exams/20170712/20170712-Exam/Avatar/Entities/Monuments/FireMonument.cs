@@ -12,5 +12,10 @@
     {
         return this.FireAffinity;
     }
+
+    public override string ToString()
+    {
+        return $"{base.ToString()} Fire Affinity: {this.FireAffinity}";
+    }
 }
 

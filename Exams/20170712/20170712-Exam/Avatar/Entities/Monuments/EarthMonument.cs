@@ -12,5 +12,10 @@
     {
         return this.EarthAffinity;
     }
+
+    public override string ToString()
+    {
+        return $"{base.ToString()} Earth Affinity: {this.EarthAffinity}";
+    }
 }
 
